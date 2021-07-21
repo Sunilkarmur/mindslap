@@ -7,9 +7,9 @@ function Connection() {
     this.pool = mysql.createPool({
       connectionLimit: 10,
       host: 'localhost',
-      user: 'root',
-      password: 'password',
-      database: 'todo'
+      user: 'phpmyadmin',
+      password: 'root',
+      database: 'mindslap_precticle'
     });
   };
 
